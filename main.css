@@ -155,7 +155,24 @@ a:focus {
 .logo-2 {
     height: 10rem;
     width: 10rem;
-    margin: .8rem 8%;
+    margin: 0;
+    padding: .8rem 8%;
+    align-items: center;
+    
+}
+
+.bucket-1 {
+    margin: 4rem 10%;
+    overflow: hidden;
+    padding: 0;
+    background-color: yellow;
+    width: 50%
+}
+
+.bucket-2 {
+}
+
+.bucket-3 {
 }
 
 .intro {
