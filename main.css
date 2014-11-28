@@ -197,6 +197,11 @@ a:focus {
     width: 100%;
 }
 
+figure{
+    margin: 0;
+    padding: 0;
+}
+
 .week-title {
     padding: 2rem;
     text-align: center;
@@ -207,7 +212,7 @@ a:focus {
     margin: 0;
     overflow: hidden;
     padding: 3rem;
-    width: 50%;
+    width: 100%;
     text-align: center;
     display: inline-block;
 }
@@ -227,7 +232,7 @@ a:focus {
     margin: 0;
     overflow: hidden;
     padding: 3rem;
-    width: 70%;
+    width: 100%;
     text-align: center
     
 }
