@@ -150,13 +150,6 @@ a:focus {
   background-color: #efefef;
 }
 
-.button {
-    border: solid;
-    border-color: #ED1B3A;
-    border-width: 10px;
-    padding: 1rem;
-}
-
 .background-image {
     background-image: url(images/h1-background-tester-2.png);
     background-color: white;
@@ -168,6 +161,30 @@ a:focus {
     overflow: hidden;
     padding: 6rem;
 
+}
+
+.button-pink {
+    border: solid;
+    border-color: #ED1B3A;
+    border-width: 10px;
+    padding: 1rem;
+}
+
+.button-pink a:link, a:visited{
+    text-decoration: none;
+    color: #ed1b3a;
+}
+
+.button-black {
+    border: solid;
+    border-color: #292929;
+    border-width: 10px;
+    padding: 1rem;
+}
+
+.button-black a:link, a:visited{
+    text-decoration: none;
+    color: #292929;
 }
 
 .nav-text {
@@ -195,7 +212,9 @@ a:focus {
 
 .back-color-black {
     background-color: #292929;
-    
+     border: solid;
+    border-color: #292929;
+    border-width: 7px
 }
 
 .back-color-gray-light {
@@ -204,14 +223,23 @@ a:focus {
 
 .back-color-gray {
     background-color: #BDBCBA;
+    border: solid;
+    border-color: #bdbcba;
+    border-width: 7px
 }
     
 .back-color-pink{
     background-color: #ED1B3A;
+     border: solid;
+    border-color: #ed1b3a;
+    border-width: 7px
 }
 
 .back-color-orange {
     background-color: #F47D1F;
+     border: solid;
+    border-color: #f47d1f;
+    border-width: 7px
 }
 
 .img-week {
