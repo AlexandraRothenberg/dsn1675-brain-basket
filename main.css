@@ -48,7 +48,7 @@ body {
 a,
 a:link,
 a:visited {
-  color: #0074D9;
+  color: #ED1B3A;
 }
 
 a:hover,
@@ -111,7 +111,7 @@ a:focus {
 .nav a:visited {
   display: block;
 
-  color: #0074D9;
+  color: #f47d1f;
   text-decoration: none;
 }
 
@@ -121,9 +121,21 @@ a:focus {
 .nav .nav-current,
 .nav .nav-current:link,
 .nav .nav-current:visited {
-  background-color: #0074D9;
+  background-color: #bdbcba;
 
   color: #fff;
+}
+
+.underline-fix {
+    text-decoration: none;
+}
+
+.text-pink {
+    color: #ed1b3a;
+}
+
+.text-orange {
+    color: #f47d1f
 }
 
 .section-dark {
@@ -138,14 +150,23 @@ a:focus {
   background-color: #efefef;
 }
 
+.button {
+    border: solid;
+    border-color: #ED1B3A;
+    border-width: 10px;
+    padding: 1rem;
+}
+
 .background-image {
     background-image: url(images/h1-background-tester-2.png);
     background-color: white;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 900px;
+    height: auto;
     width: 100%;
     margin: 0;
+    overflow: hidden;
+    padding: 6rem;
 
 }
 
@@ -159,7 +180,7 @@ a:focus {
 }
 
 .logo {
-    height: 4rem;
+    height: 6rem;
     width: 4rem;
     margin: .5rem 5%;
 }
@@ -167,13 +188,14 @@ a:focus {
 .logo-2 {
     height: 9rem;
     width: 9rem;
-    margin: 0;
-    padding: 0;
-    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
 }
 
 .back-color-black {
     background-color: #292929;
+    
 }
 
 .back-color-gray-light {
